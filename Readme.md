@@ -31,9 +31,9 @@ Python 3.6.3
 1. Download pre-trained model from [Google Drive](https://drive.google.com/file/d/1hQzbaJgqnu5jNuv80MpXx2eEVOe3vK5O/view?usp=sharing) and put the file under `./detection/output/` folder. 
 
 2. Change the image name to `demo.jpg` in the CEIR folder.
-* Run `python ceir_crop.py` for stage 1.
-* Run `python ceir_detect.py` for stage 2.
-* Run `python ceir_recognize.py` for stage 3.
+* Run `python crop.py` for stage 1.
+* Run `python detect.py` for stage 2.
+* Run `python recognize.py` for stage 3.
 
 3. The result will be saved in `./result/`.
 
